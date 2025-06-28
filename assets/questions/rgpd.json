@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q_rgpd101",
+    "question": "Quand le Règlement Général sur la Protection des Données (RGPD) est-il entré en application ?",
+    "reponses": [
+      "1er janvier 2018",
+      "25 mai 2018",
+      "1er juillet 2019",
+      "31 décembre 2017"
+    ],
+    "bonne_reponse": 1,
+    "matiere": "sécurité des données",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_rgpd102",
+    "question": "Quel principe du RGPD exige que les données personnelles soient collectées pour des finalités spécifiques, explicites et légitimes ?",
+    "reponses": [
+      "Minimisation des données",
+      "Intégrité et confidentialité",
+      "Limitation des finalités",
+      "Exactitude"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "sécurité des données",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_rgpd103",
+    "question": "Quelle est la caractéristique principale du champ d'application du RGPD concernant les organisations non établies dans l'UE ?",
+    "reponses": [
+      "Il ne s'applique qu'aux organisations européennes.",
+      "Il s'applique seulement si l'organisation a plus de 500 employés dans l'UE.",
+      "Il a un champ d'application extraterritorial, s'appliquant sous certaines conditions aux organisations hors UE.",
+      "Il ne concerne que les données traitées physiquement sur le territoire de l'UE."
+    ],
+    "bonne_reponse": 2,
+    "matiere": "sécurité des données",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_rgpd104",
+    "question": "Qui est la personne physique ou morale qui détermine les finalités et les moyens du traitement des données personnelles ?",
+    "reponses": [
+      "Le Délégué à la Protection des Données (DPO)",
+      "Le Sous-Traitant",
+      "Le Responsable de Traitement",
+      "L'Autorité de Contrôle"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "sécurité des données",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_rgpd105",
+    "question": "Quel droit permet à une personne de demander la suppression de ses données personnelles dans certains cas ?",
+    "reponses": [
+      "Droit d'accès",
+      "Droit de rectification",
+      "Droit à l'oubli (effacement)",
+      "Droit à la portabilité"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "sécurité des données",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_rgpd106",
+    "question": "Parmi les options suivantes, laquelle n'est PAS une base légale valide pour le traitement des données personnelles selon le RGPD ?",
+    "reponses": [
+      "Le consentement de la personne concernée",
+      "L'exécution d'un contrat",
+      "La simple commodité opérationnelle de l'entreprise",
+      "Le respect d'une obligation légale"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "sécurité des données",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_gdg101",
+    "question": "Quel est l'un des principaux enjeux de la gouvernance des données ?",
+    "reponses": [
+      "Augmenter le volume de données collectées",
+      "Assurer la conformité réglementaire et améliorer la qualité des données",
+      "Réduire les coûts de stockage des données à zéro",
+      "Automatiser toutes les décisions sans intervention humaine"
+    ],
+    "bonne_reponse": 1,
+    "matiere": "gouvernance des données",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_secdata101",
+    "question": "Quels sont les trois principes fondamentaux de la sécurité des données, souvent résumés par l'acronyme 'CID' ?",
+    "reponses": [
+      "Clarté, Intégrité, Durabilité",
+      "Confidentialité, Innovation, Disponibilité",
+      "Confidentialité, Intégrité, Disponibilité",
+      "Communication, Information, Documentation"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "sécurité des données",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_datamap101",
+    "question": "Quel est l'objectif principal du Data Mapping dans le cadre du RGPD ?",
+    "reponses": [
+      "Créer des sauvegardes de toutes les données",
+      "Vendre des données à des tiers",
+      "Identifier et documenter les flux de données personnelles au sein de l'organisation",
+      "Générer des rapports financiers"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "outils RGPD",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_pia101",
+    "question": "Quand un PIA (Analyse d'Impact sur la Protection des Données) est-il obligatoire selon le RGPD ?",
+    "reponses": [
+      "Pour tous les traitements de données, sans exception",
+      "Lorsque le traitement est susceptible d'engendrer un risque élevé pour les droits et libertés des personnes physiques",
+      "Uniquement pour les traitements de données sensibles",
+      "Si l'entreprise compte plus de 100 employés"
+    ],
+    "bonne_reponse": 1,
+    "matiere": "outils RGPD",
+    "niveau": 2,
+    "dernierPassage": null
+  }
+]

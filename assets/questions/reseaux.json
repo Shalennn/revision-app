@@ -1,0 +1,245 @@
+[
+  {
+    "id": "q101_1",
+    "question": "Combien de couches le modèle TCP/IP contient-il ?",
+    "reponses": ["3", "4", "5", "7"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q101_2",
+    "question": "Quelle couche du modèle TCP/IP est responsable de la transmission physique des données ?",
+    "reponses": ["Internet", "Transport", "Accès réseau", "Application"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q101_3",
+    "question": "Quel protocole est utilisé par la couche Internet pour l'adressage et le routage des paquets ?",
+    "reponses": ["TCP", "UDP", "IP", "HTTP"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q101_4",
+    "question": "Quels sont les deux protocoles principaux de la couche Transport ?",
+    "reponses": ["HTTP et HTTPS", "DNS et SMTP", "TCP et UDP", "SSH et Telnet"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q101_5",
+    "question": "Quel protocole de la couche Application est utilisé pour la consultation de pages web ?",
+    "reponses": ["FTP", "SMTP", "DNS", "HTTP"],
+    "bonne_reponse": 3,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q301_1",
+    "question": "Quel est le port par défaut utilisé par le protocole HTTP ?",
+    "reponses": ["21", "23", "80", "443"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q301_2",
+    "question": "Quelle est la caractéristique principale du protocole HTTP concernant l'état des requêtes ?",
+    "reponses": ["Orienté connexion", "Fiable", "Avec état (stateful)", "Sans état (stateless)"],
+    "bonne_reponse": 3,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q302_1",
+    "question": "Quel protocole est utilisé par HTTPS pour garantir la sécurité des données ?",
+    "reponses": ["TCP", "UDP", "TLS", "IP"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q302_2",
+    "question": "Quel est le port par défaut utilisé par HTTPS ?",
+    "reponses": ["80", "22", "443", "53"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q303_1",
+    "question": "À quoi sert le protocole DNS ?",
+    "reponses": ["Transférer des fichiers", "Traduire des noms de domaine en adresses IP", "Envoyer des e-mails", "Établir des connexions sécurisées"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q303_2",
+    "question": "Quel port est majoritairement utilisé par DNS sur UDP ?",
+    "reponses": ["25", "53", "80", "110"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q304_1",
+    "question": "Quelle est une caractéristique principale du protocole TCP ?",
+    "reponses": ["Non fiable", "Orienté connexion", "Rapide et sans garantie de livraison", "Utilisé pour le streaming vidéo"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q304_2",
+    "question": "Combien d'étapes le 'three-way handshake' de TCP comprend-il ?",
+    "reponses": ["1", "2", "3", "4"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q305_1",
+    "question": "Quel protocole est privilégié pour les applications temps réel comme la VoIP en raison de sa rapidité ?",
+    "reponses": ["TCP", "HTTP", "UDP", "SMTP"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q305_2",
+    "question": "UDP garantit-il la livraison des paquets ?",
+    "reponses": ["Oui", "Non", "Seulement si le réseau est stable", "Uniquement avec une configuration spécifique"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q306_1",
+    "question": "Quel protocole est utilisé pour l'envoi d'e-mails ?",
+    "reponses": ["POP3", "IMAP", "SMTP", "HTTP"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q306_2",
+    "question": "Quel port est souvent utilisé par SMTP pour une connexion sécurisée avec STARTTLS ?",
+    "reponses": ["25", "465", "587", "993"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q307_1",
+    "question": "Quel protocole de messagerie permet de consulter des e-mails en les laissant sur le serveur ?",
+    "reponses": ["POP3", "SMTP", "IMAP", "FTP"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q307_2",
+    "question": "Quel port est couramment utilisé par IMAP en SSL ?",
+    "reponses": ["110", "143", "465", "993"],
+    "bonne_reponse": 3,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q308_1",
+    "question": "Quelle est la principale différence entre POP3 et IMAP concernant le stockage des e-mails ?",
+    "reponses": ["POP3 laisse les mails sur le serveur, IMAP les télécharge", "POP3 télécharge les mails par défaut et peut les supprimer du serveur, IMAP les laisse sur le serveur", "POP3 est plus rapide qu'IMAP", "IMAP est plus simple à implémenter que POP3"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q308_2",
+    "question": "Quel port est associé à POP3 non sécurisé ?",
+    "reponses": ["25", "110", "143", "995"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q309_1",
+    "question": "Quel protocole est utilisé pour établir une session distante sécurisée et exécuter des commandes à distance ?",
+    "reponses": ["Telnet", "FTP", "SSH", "HTTP"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q309_2",
+    "question": "Quel port est généralement utilisé par SSH ?",
+    "reponses": ["21", "22", "23", "80"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q310_1",
+    "question": "Pourquoi Telnet est-il considéré comme obsolète et vulnérable ?",
+    "reponses": ["Il est trop lent", "Il n'offre aucun chiffrement des données", "Il ne peut pas exécuter de commandes à distance", "Il est trop complexe à configurer"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q310_2",
+    "question": "Quel est le port par défaut utilisé par Telnet ?",
+    "reponses": ["21", "22", "23", "25"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q311_1",
+    "question": "À quoi sert le protocole ARP ?",
+    "reponses": ["Traduire des noms de domaine", "Faire correspondre une adresse IP à une adresse MAC", "Envoyer des e-mails", "Sécuriser les connexions distantes"],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q311_2",
+    "question": "ARP utilise-t-il un port TCP ou UDP ?",
+    "reponses": ["Oui, le port 80", "Oui, le port 53", "Non, il fonctionne directement sur Ethernet", "Oui, le port 22"],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  }
+]

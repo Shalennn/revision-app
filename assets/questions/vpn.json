@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q_vpn101",
+    "question": "Quelle est l'utilité principale d'un VPN ?",
+    "reponses": [
+      "Augmenter la vitesse de connexion internet",
+      "Établir une connexion sécurisée et chiffrée sur un réseau public",
+      "Installer de nouveaux logiciels",
+      "Bloquer toutes les publicités en ligne"
+    ],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn102",
+    "question": "Quel terme décrit le processus de masquage et de chiffrement des données dans un VPN ?",
+    "reponses": [
+      "Déroutage",
+      "Compaction",
+      "Tunneling",
+      "Diffusion"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn103",
+    "question": "Parmi les protocoles suivants, lequel est considéré comme le moins sécurisé pour un VPN et est généralement à éviter ?",
+    "reponses": [
+      "OpenVPN",
+      "L2TP/IPsec",
+      "PPTP",
+      "IKEv2"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn104",
+    "question": "À quelle couche du modèle OSI les IPsec VPN opèrent-ils principalement ?",
+    "reponses": [
+      "Couche Application",
+      "Couche Transport",
+      "Couche Réseau",
+      "Couche Liaison de Données"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn105",
+    "question": "Quel composant d'une architecture VPN agit comme une passerelle distante pour les connexions des utilisateurs ?",
+    "reponses": [
+      "Le client VPN",
+      "Le serveur DNS",
+      "Le serveur VPN",
+      "Le routeur local"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn106",
+    "question": "Quel type d'attaque peut survenir si le trafic DNS ne passe pas par le tunnel VPN, exposant l'activité de l'utilisateur ?",
+    "reponses": [
+      "Attaque par déni de service",
+      "Fuite DNS",
+      "Usurpation d'identité",
+      "Infection virale"
+    ],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn107",
+    "question": "Quel algorithme de chiffrement est couramment utilisé dans les VPNs pour assurer la confidentialité des données ?",
+    "reponses": [
+      "MD5",
+      "SHA-256",
+      "AES-256",
+      "RSA-1024"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn108",
+    "question": "Qu'est-ce que l'authentification multi-facteurs (MFA) apporte à la sécurité d'un VPN ?",
+    "reponses": [
+      "Elle réduit le temps de connexion",
+      "Elle simplifie le processus d'authentification",
+      "Elle ajoute une couche de sécurité en demandant plusieurs preuves d'identité",
+      "Elle permet d'utiliser le VPN sans mot de passe"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn109",
+    "question": "Quel protocole est souvent combiné avec IPsec pour le tunneling dans les VPNs ?",
+    "reponses": [
+      "HTTP",
+      "FTP",
+      "L2TP",
+      "SMTP"
+    ],
+    "bonne_reponse": 2,
+    "matiere": "réseaux",
+    "niveau": 1,
+    "dernierPassage": null
+  },
+  {
+    "id": "q_vpn110",
+    "question": "Les VPNs SSL/TLS sont-ils majoritairement utilisés pour les connexions site-à-site ou pour l'accès à distance via navigateur web ?",
+    "reponses": [
+      "Uniquement pour les connexions site-à-site",
+      "Principalement pour l'accès à distance via navigateur web",
+      "Uniquement pour le chiffrement des emails",
+      "Pour la gestion des serveurs DNS"
+    ],
+    "bonne_reponse": 1,
+    "matiere": "réseaux",
+    "niveau": 2,
+    "dernierPassage": null
+  }
+]

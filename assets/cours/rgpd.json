@@ -1,0 +1,72 @@
+[
+  {
+    "id": "rgpd101",
+    "titre": "RGPD : Principes Fondamentaux et Objectifs",
+    "contenu": "Le RGPD (Règlement Général sur la Protection des Données, ou GDPR en anglais) est un règlement de l'Union Européenne entré en application le 25 mai 2018. Son objectif est d'harmoniser les lois sur la protection des données dans toute l'UE et de donner aux citoyens un plus grand contrôle sur leurs données personnelles. Les principes clés incluent la licéité, la loyauté et la transparence, la limitation des finalités, la minimisation des données, l'exactitude, la limitation de la conservation, l'intégrité et la confidentialité (sécurité), et la **responsabilité (accountability).",
+    "matiere": "sécurité des données",
+    "tags": ["RGPD", "GDPR", "protection des données", "principes", "objectifs"]
+  },
+  {
+    "id": "rgpd102",
+    "titre": "Champ d'Application du RGPD : Territorial et Matériel",
+    "contenu": "Le RGPD a un champ d'application extraterritorial. Il s'applique : \n1. Aux organisations établies dans l'UE, qu'elles traitent des données de résidents de l'UE ou non.\n2. Aux organisations non établies dans l'UE qui traitent des données personnelles de résidents de l'UE si leurs activités concernent : \n    a. L'offre de biens ou services à ces personnes dans l'UE.\n    b. Le suivi de leur comportement au sein de l'UE.\nIl concerne le traitement des données personnelles, c'est-à-dire toute information se rapportant à une personne physique identifiée ou identifiable.",
+    "matiere": "sécurité des données",
+    "tags": ["RGPD", "champ d'application", "données personnelles", "extraterritorialité"]
+  },
+  {
+    "id": "rgpd103",
+    "titre": "Rôles Clés du RGPD : Responsable de Traitement et Sous-Traitant",
+    "contenu": "Le RGPD définit deux rôles principaux : \n- Le Responsable de Traitement (RT) : La personne physique ou morale, l'autorité publique, l'agence ou tout autre organisme qui, seul ou conjointement avec d'autres, détermine les finalités et les moyens du traitement. C'est lui qui assume la responsabilité de la conformité.\n- Le Sous-Traitant (ST) : La personne physique ou morale, l'autorité publique, l'agence ou tout autre organisme qui traite des données à caractère personnel pour le compte du responsable du traitement. Le ST est également soumis à certaines obligations directes du RGPD.",
+    "matiere": "sécurité des données",
+    "tags": ["RGPD", "rôles", "responsable de traitement", "sous-traitant", "responsabilité"]
+  },
+  {
+    "id": "rgpd104",
+    "titre": "Droits des Personnes Concernées (Individus)",
+    "contenu": "Le RGPD renforce les droits des personnes dont les données sont traitées : \n- Droit à l'information : Être informé clairement sur le traitement de ses données.\n- Droit d'accès : Obtenir la confirmation que des données sont traitées et y accéder.\n- Droit de rectification : Corriger des données inexactes.\n- Droit à l'effacement ('droit à l'oubli') : Obtenir la suppression de ses données dans certains cas.\n- Droit à la limitation du traitement : Demander la suspension du traitement.\n- Droit à la portabilité des données : Recevoir ses données dans un format structuré et les transmettre à un autre responsable.\n- Droit d'opposition : S'opposer au traitement de ses données.\n- Droit de ne pas faire l'objet d'une décision individuelle automatisée : Incluant le profilage.",
+    "matiere": "sécurité des données",
+    "tags": ["RGPD", "droits des individus", "droit à l'oubli", "portabilité", "opposition"]
+  },
+  {
+    "id": "rgpd105",
+    "titre": "Base Légale du Traitement des Données Personnelles",
+    "contenu": "Pour que le traitement de données personnelles soit licite, il doit reposer sur l'une des six bases légales définies par le RGPD : \n1. Le **consentement** de la personne concernée.\n2. L'exécution d'un **contrat**.\n3. Le respect d'une **obligation légale**.\n4. La sauvegarde des **intérêts vitaux** de la personne concernée.\n5. L'exécution d'une mission d'**intérêt public** ou relevant de l'exercice de l'autorité publique.\n6. Les **intérêts légitimes** poursuivis par le responsable de traitement (sauf prépondérance des intérêts de la personne concernée).",
+    "matiere": "sécurité des données",
+    "tags": ["RGPD", "base légale", "consentement", "contrat", "obligation légale", "intérêts légitimes"]
+  },
+  {
+    "id": "gdg101",
+    "titre": "Gouvernance des Données : Définition et Enjeux",
+    "contenu": "La gouvernance des données est un cadre qui garantit la gestion, la disponibilité, la convivialité, l'intégrité et la sécurité des données dans une organisation. Ses enjeux sont multiples : assurer la conformité réglementaire (dont le RGPD), améliorer la qualité des données, faciliter la prise de décision, optimiser les processus métiers, et réduire les risques liés aux données. Elle implique des rôles, des responsabilités, des politiques, des normes et des processus bien définis.",
+    "matiere": "gouvernance des données",
+    "tags": ["gouvernance des données", "data governance", "qualité des données", "conformité", "stratégie data"]
+  },
+  {
+    "id": "secdata101",
+    "titre": "Sécurité des Données : Principes et Mesures Techniques",
+    "contenu": "La sécurité des données vise à protéger les informations contre l'accès non autorisé, l'altération, la divulgation ou la destruction. Ses principes fondamentaux sont la confidentialité, l'intégrité et la disponibilité (CID). Les mesures techniques incluent : \n- Le chiffrement (données au repos et en transit).\n- Les contrôles d'accès (authentification forte, gestion des habilitations).\n- La sécurité réseau (firewalls, IDS/IPS, segmentation réseau).\n- Les sauvegardes et plans de reprise après sinistre (DRP).\n- La détection d'intrusion et la surveillance des logs.",
+    "matiere": "sécurité des données",
+    "tags": ["sécurité des données", "confidentialité", "intégrité", "disponibilité", "chiffrement", "contrôles d'accès"]
+  },
+  {
+    "id": "datamap101",
+    "titre": "DATA MAPPING : Cartographie des Traitements de Données Personnelles",
+    "contenu": "Le Data Mapping (ou cartographie des traitements de données) est un processus essentiel pour la conformité RGPD. Il consiste à identifier, documenter et visualiser : \n- Quelles données sont collectées ? (types de données).\n- Où sont-elles stockées ? (systèmes, serveurs, applications).\n- Comment sont-elles utilisées ? (finalités du traitement).\n- Qui y a accès ? (internes, externes).\n- Où sont-elles transférées ? (flux transfrontaliers).\n- Combien de temps sont-elles conservées ? (durées de conservation).\nCette cartographie permet de construire le registre des activités de traitement.",
+    "matiere": "outils RGPD",
+    "tags": ["Data Mapping", "cartographie des données", "RGPD", "registre de traitement", "flux de données"]
+  },
+  {
+    "id": "pia101",
+    "titre": "PIA : Analyse d'Impact sur la Protection des Données",
+    "contenu": "Le PIA (Privacy Impact Assessment, ou Analyse d'Impact sur la Protection des Données - AIPD) est une démarche obligatoire selon le RGPD lorsque des traitements de données sont susceptibles d'engendrer un risque élevé pour les droits et libertés des personnes physiques. Il s'agit d'une étude préalable qui évalue la nécessité et la proportionnalité du traitement, et qui intègre les risques pour les personnes concernées ainsi que les mesures envisagées pour les adresser (mesures techniques et organisationnelles). Le PIA aide à construire une approche de Privacy by Design et by Default.",
+    "matiere": "outils RGPD",
+    "tags": ["PIA", "AIPD", "Privacy Impact Assessment", "RGPD", "risque élevé", "Privacy by Design"]
+  },
+  {
+    "id": "pia102",
+    "titre": "Méthodologie d'un PIA et Contenu",
+    "contenu": "La réalisation d'un PIA suit généralement plusieurs étapes : \n1. Description détaillée du traitement envisagé (finalités, catégories de données, destinataires, durée de conservation).\n2. Évaluation de la nécessité et de la proportionnalité du traitement.\n3. Identification et analyse des risques pour les droits et libertés des personnes (ex : accès non autorisé, perte, altération).\n4. Détermination des mesures (techniques et organisationnelles) pour gérer ces risques.\n5. Validation et documentation des résultats. Le PIA doit être mis à jour régulièrement. La CNIL propose des méthodologies et des outils pour faciliter cette démarche.",
+    "matiere": "outils RGPD",
+    "tags": ["PIA", "méthodologie", "risques", "mesures de sécurité", "CNIL"]
+  }
+]

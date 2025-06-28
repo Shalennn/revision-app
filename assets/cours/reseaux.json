@@ -1,0 +1,116 @@
+[
+    {
+      "id": "cours101",
+      "titre": "Introduction au modèle TCP/IP",
+      "contenu": "Le modèle TCP/IP est une architecture de communication en réseau en 4 couches : Accès réseau, Internet, Transport et Application. Il sert de base à l'Internet moderne.",
+      "matiere": "réseaux",
+      "tags": ["TCP/IP", "modèle", "réseaux"]
+    },
+    {
+      "id": "cours102",
+      "titre": "La couche Accès réseau",
+      "contenu": "La couche Accès réseau gère la transmission physique des données sur le réseau (câbles, cartes réseau, Ethernet, Wi-Fi). Elle est responsable de l'encapsulation des paquets IP dans des trames réseau.",
+      "matiere": "réseaux",
+      "tags": ["TCP/IP", "accès réseau", "liaison", "physique"]
+    },
+    {
+      "id": "cours103",
+      "titre": "La couche Internet",
+      "contenu": "La couche Internet gère l'adressage IP, le routage des paquets entre réseaux, et le protocole IP. Elle permet l'identification des machines via leurs adresses IP.",
+      "matiere": "réseaux",
+      "tags": ["TCP/IP", "IP", "Internet", "adressage", "routage"]
+    },
+    {
+      "id": "cours104",
+      "titre": "La couche Transport",
+      "contenu": "La couche Transport assure la communication de bout en bout entre applications. Elle comprend les protocoles TCP (fiable, orienté connexion) et UDP (rapide, non fiable).",
+      "matiere": "réseaux",
+      "tags": ["TCP/IP", "transport", "TCP", "UDP"]
+    },
+    {
+      "id": "cours105",
+      "titre": "La couche Application",
+      "contenu": "La couche Application comprend les protocoles utilisés par les applications réseau : HTTP, FTP, SMTP, DNS... Elle permet l'interaction entre l'utilisateur et le réseau.",
+      "matiere": "réseaux",
+      "tags": ["TCP/IP", "application", "HTTP", "DNS"]
+    },
+    {
+      "id": "cours301",
+      "titre": "Protocole HTTP (HyperText Transfer Protocol)",
+      "contenu": "HTTP est un protocole de la couche application utilisé pour la communication entre les clients (navigateurs) et les serveurs web. Il fonctionne selon un modèle requête-réponse sans état (stateless), via TCP sur le port 80. HTTP/1.1 permet les connexions persistantes (Keep-Alive), tandis que HTTP/2 et HTTP/3 introduisent la multiplexion, la compression d’en-têtes, et le protocole QUIC pour améliorer les performances. Exemple d’usage : lorsqu’un utilisateur entre une URL, le navigateur envoie une requête GET vers le serveur qui répond avec une ressource HTML. Bien que simple et largement adopté, HTTP n’offre aucune sécurité native (d’où l’évolution vers HTTPS).",
+      "matiere": "réseaux",
+      "tags": ["HTTP", "web", "stateless", "GET", "POST", "HTTP/2", "QUIC"]
+    }
+    ,
+    {
+      "id": "cours302",
+      "titre": "Protocole HTTPS (HTTP Secure)",
+      "contenu": "HTTPS est une version sécurisée de HTTP utilisant le chiffrement TLS (ex-SSL) pour garantir la confidentialité, l'intégrité et l'authentification des données échangées. Fonctionne généralement sur le port 443. Un certificat numérique (X.509) permet d’assurer l'identité du serveur. Lors de la négociation TLS (TLS Handshake), client et serveur échangent des clés cryptographiques pour établir un canal sécurisé. HTTPS est indispensable pour les transactions sensibles (paiement en ligne, authentification, etc.). Exemple : lorsque tu accèdes à ton compte bancaire, c’est HTTPS qui protège ta connexion.",
+      "matiere": "réseaux",
+      "tags": ["HTTPS", "TLS", "SSL", "chiffrement", "authentification", "certificat"]
+    },
+    {
+      "id": "cours303",
+      "titre": "Protocole DNS (Domain Name System)",
+      "contenu": "Le DNS permet de traduire des noms de domaine lisibles par l’humain (ex. www.example.com) en adresses IP compréhensibles par les machines. Il utilise le port 53 sur UDP (ou TCP pour les réponses volumineuses). Le système repose sur une hiérarchie de serveurs (racine, TLD, autoritaire). Exemple de requête : ton navigateur veut accéder à www.example.com → il interroge un résolveur DNS qui contacte plusieurs serveurs pour obtenir l’adresse IP associée. Le DNS est essentiel au fonctionnement du web mais vulnérable à certaines attaques (DNS spoofing), d’où l’émergence de DNSSEC et DoH (DNS over HTTPS).",
+      "matiere": "réseaux",
+      "tags": ["DNS", "nom de domaine", "résolution", "UDP", "DNSSEC", "DoH"]
+    },
+    {
+      "id": "cours304",
+      "titre": "Protocole TCP (Transmission Control Protocol)",
+      "contenu": "TCP est un protocole de transport orienté connexion qui garantit une transmission fiable des données. Il utilise un système d’accusé de réception (ACK), de numérotation de séquence, de contrôle de flux et de congestion. Fonctionne sur IP via un processus en trois étapes (3-way handshake) : SYN, SYN-ACK, ACK. Il segmente les données applicatives (comme HTTP) et assure leur réassemblage correct. Utilisé pour les applications critiques : web, messagerie, fichiers. Inconvénients : plus de surcharge que UDP.",
+      "matiere": "réseaux",
+      "tags": ["TCP", "handshake", "fiabilité", "contrôle de flux", "réassemblage"]
+    },
+    {
+      "id": "cours305",
+      "titre": "Protocole UDP (User Datagram Protocol)",
+      "contenu": "UDP est un protocole de transport non connecté, rapide mais sans garantie de livraison. Il envoie les paquets (datagrammes) directement sans vérifier leur réception. Fonctionne sur IP, avec un en-tête minimal (8 octets). Adapté aux usages temps réel comme la voix sur IP (VoIP), les jeux en ligne et le streaming vidéo. Exemple : les appels WhatsApp utilisent souvent UDP pour la latence faible. UDP est efficace mais potentiellement moins fiable.",
+      "matiere": "réseaux",
+      "tags": ["UDP", "temps réel", "latence", "datagramme", "non fiable"]
+    },
+      {
+        "id": "cours306",
+        "titre": "Protocole SMTP (Simple Mail Transfer Protocol)",
+        "contenu": "SMTP est un protocole de la couche application permettant l’envoi d’e-mails d’un client vers un serveur ou entre serveurs de messagerie. Il fonctionne sur TCP, généralement via le port 25 (non sécurisé), le port 587 (STARTTLS) ou le port 465 (SSL/TLS). SMTP ne permet pas la récupération des courriels, seulement leur expédition. Il utilise une structure en commandes textuelles (HELO, MAIL FROM, RCPT TO, DATA) pour établir la conversation. Exemple : lorsqu’un utilisateur envoie un mail depuis Outlook, celui-ci utilise SMTP pour transmettre le message au serveur sortant. SMTP est souvent associé à IMAP ou POP pour compléter la chaîne.",
+        "matiere": "réseaux",
+        "tags": ["SMTP", "e-mail", "port 25", "port 587", "envoi", "STARTTLS"]
+      },
+      {
+        "id": "cours307",
+        "titre": "Protocole IMAP (Internet Message Access Protocol)",
+        "contenu": "IMAP est un protocole de messagerie qui permet de consulter et manipuler ses e-mails à distance tout en les laissant stockés sur le serveur. Fonctionne sur TCP, généralement via le port 143 (non sécurisé) ou 993 (SSL). L’utilisateur peut créer des dossiers, synchroniser l’état de lecture, et accéder à ses messages depuis plusieurs appareils simultanément. Contrairement à POP, IMAP est plus adapté à une utilisation multi-appareils. Exemple : un utilisateur ouvre son client de messagerie sur smartphone et voit les mêmes messages que sur son ordinateur grâce à la synchronisation IMAP.",
+        "matiere": "réseaux",
+        "tags": ["IMAP", "messagerie", "port 993", "synchronisation", "serveur distant"]
+      },
+      {
+        "id": "cours308",
+        "titre": "Protocole POP3 (Post Office Protocol v3)",
+        "contenu": "POP3 est un protocole de messagerie permettant de récupérer des e-mails depuis un serveur distant. Par défaut, les messages sont téléchargés puis supprimés du serveur, bien qu’une option permette de les y conserver. Il fonctionne via TCP, généralement sur le port 110 (non sécurisé) ou 995 (SSL). Moins flexible qu’IMAP, POP3 est néanmoins simple à implémenter. Exemple : lorsqu’un utilisateur configure un client avec POP3, ses mails sont téléchargés localement, ce qui permet leur lecture hors ligne mais complique la synchronisation entre plusieurs terminaux.",
+        "matiere": "réseaux",
+        "tags": ["POP3", "e-mail", "téléchargement", "port 110", "stockage local"]
+      },
+      {
+        "id": "cours309",
+        "titre": "Protocole SSH (Secure Shell)",
+        "contenu": "SSH est un protocole cryptographique utilisé pour établir une session distante sécurisée avec un autre appareil. Il permet l’authentification, le chiffrement de la communication et l’exécution de commandes à distance. Fonctionne généralement via TCP sur le port 22. Utilisé par les administrateurs système, SSH protège contre les interceptions et usurpations. Exemple d’usage : se connecter à un serveur Linux via un terminal en ligne de commande en utilisant les identifiants SSH. On peut renforcer la sécurité avec des clés publiques/privées.",
+        "matiere": "réseaux",
+        "tags": ["SSH", "sécurité", "connexion distante", "chiffrement", "port 22"]
+      },
+      {
+        "id": "cours310",
+        "titre": "Protocole Telnet",
+        "contenu": "Telnet permet d’établir une session interactive sur un hôte distant via une connexion en mode texte. Fonctionne sur TCP, généralement sur le port 23. Il offre un accès en ligne de commande, mais sans aucun chiffrement des données, ce qui le rend obsolète et vulnérable aux attaques (sniffing, usurpation). Telnet est historiquement utilisé pour administrer des équipements réseau. Aujourd’hui, il est largement remplacé par SSH. Exemple : accéder à un switch ou routeur en telnet depuis un terminal distant sur le même réseau.",
+        "matiere": "réseaux",
+        "tags": ["Telnet", "accès distant", "port 23", "non sécurisé", "terminal"]
+      },
+      {
+        "id": "cours311",
+        "titre": "Protocole ARP (Address Resolution Protocol)",
+        "contenu": "ARP permet de faire la correspondance entre une adresse IP (niveau réseau) et une adresse MAC (niveau liaison de données). Il est essentiel dans les réseaux IPv4 locaux pour permettre la communication entre hôtes. Lorsqu’un hôte veut envoyer un paquet à une IP sur son sous-réseau, il envoie une requête ARP (en broadcast) pour obtenir l’adresse MAC correspondante. La réponse est stockée en cache ARP. ARP n’utilise pas de port car il fonctionne directement sur Ethernet. Vulnérable aux attaques de type ARP spoofing/poisoning, il est parfois protégé par des mécanismes comme Dynamic ARP Inspection.",
+        "matiere": "réseaux",
+        "tags": ["ARP", "adresse MAC", "liaison", "résolution", "spoofing"]
+      }
+  ]
+  
